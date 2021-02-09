@@ -1,5 +1,5 @@
 {
-    "name": "site5/phantoman",
+    "name": "mumtozbek/phantoman",
     "description": "The Codeception extension for automatically starting and stopping PhantomJS when running tests.",
     "keywords": ["codeception", "extension", "phantomjs", "headless"],
     "homepage": "https://github.com/grantlucas/phantoman",
@@ -12,18 +12,14 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "codeception/codeception": "^2.2.7"
+        "codeception/codeception": "*"
     },
     "autoload": {
         "psr-4": {
-            "Codeception\\Extension\\": "src/"
+          "Codeception\\Extension\\": "src/"
         }
     },
     "suggest": {
         "jakoch/phantomjs-installer": "Automatically installs PhantomJS locally to your project."
-    },
-    "require-dev": {
-        "phan/phan": "^3.2",
-        "squizlabs/php_codesniffer": "^3.5"
     }
 }
